@@ -1,7 +1,7 @@
-const Key = () => {
+const Key = ({ digit }) => {
   return (
     <li>
-      <button className="key">1</button>
+      <button className="key">{digit}</button>
     </li>
   );
 };
