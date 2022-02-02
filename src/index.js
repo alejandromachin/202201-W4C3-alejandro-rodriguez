@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import NumberContextProvider from "./components/NumberContextProvider/NumberContextProvider";
+import NumberContextProvider from "./contexts/NumberContextProvider";
 
 ReactDOM.render(
   <React.StrictMode>
