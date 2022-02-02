@@ -1,4 +1,5 @@
-import Keyboard from "./components/Keyboard/Keboard";
+import ActionContainer from "./components/ActionContainer/ActionContainer";
+import Keyboard from "./components/Keyboard/Keyboard";
 
 function App() {
   return (
@@ -9,18 +10,7 @@ function App() {
         <div className="keyboard-container">
           <Keyboard />
         </div>
-        <div className="actions">
-          <span className="number">667359961</span>
-          {/* <!-- El botón de llamar debe tener la clase "activo" cuando -->
-          <!-- el número de teléfono tiene 9 cifras --> */}
-          <a href="call" className="call">
-            Call
-          </a>
-          {/* <!-- Sólo se tiene que ver un botón u otro --> */}
-          <a href="hang" className="hang active">
-            Hang
-          </a>
-        </div>
+        <ActionContainer />
       </main>
     </div>
   );
