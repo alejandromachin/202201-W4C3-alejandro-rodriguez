@@ -11,18 +11,22 @@
 -Display:
   ·Renderizar el número de teléfono marcado
 
--Actions:
+-ActionsContainer:
   ·Contener a los dos botones de acciones
 
--Action:
+-ActionButton:
   ·Renderizar un boton con un texto recibido
   ·Realizar una acción recibida
 
 -Keyboard
   ·Contener a los dos botones de los números
   
--Key
+-Key:
   ·Renderizar un boton con un texto recibido
+  ·Realizar una acción recibida
+
+-DeleteKey:
+  ·Renderizar un botón
   ·Realizar una acción recibida
 
 
@@ -34,8 +38,8 @@
 
 ## Acciones:
 
--Añadir un número a Número Display
--Quitar un número a Número Display
--Cambiar el estado de la llamada
+-Añadir un número a Número Display (Key)
+-Quitar un número a Número Display (DeleteKey)
+-Cambiar el estado de la llamada (ActionButton)
 
 
