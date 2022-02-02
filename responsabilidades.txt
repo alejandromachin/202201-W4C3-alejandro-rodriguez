@@ -1,0 +1,41 @@
+# Teléfono React
+
+## Componentes
+
+-App:
+  ·Renderizar todos los Componentes
+
+-Info:
+  ·Renderizar la info de la llamada (...llamando)
+
+-Display:
+  ·Renderizar el número de teléfono marcado
+
+-Actions:
+  ·Contener a los dos botones de acciones
+
+-Action:
+  ·Renderizar un boton con un texto recibido
+  ·Realizar una acción recibida
+
+-Keyboard
+  ·Contener a los dos botones de los números
+  
+-Key
+  ·Renderizar un boton con un texto recibido
+  ·Realizar una acción recibida
+
+
+## Datos:
+
+- Dígitos
+- estado de la llamada
+- Número Display
+
+## Acciones:
+
+-Añadir un número a Número Display
+-Quitar un número a Número Display
+-Cambiar el estado de la llamada
+
+
