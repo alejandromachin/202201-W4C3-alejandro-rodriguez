@@ -1,5 +1,5 @@
 import ActionContainer from "./components/ActionContainer/ActionContainer";
-import Keyboard from "./components/Keyboard/Keboard";
+import Keyboard from "./components/Keyboard/Keyboard";
 
 function App() {
   return (
